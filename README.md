@@ -1,7 +1,7 @@
 # secure-login-system-with-encryption-
 Secure Login System with Encryption
 
-📌 Project Overview
+ Project Overview
 
 The Secure Login System with Encryption is a Python-based command-line application designed to provide a simple and secure user authentication system.
 
@@ -10,33 +10,31 @@ The application allows users to register an account, securely store their passwo
 Instead of storing passwords in plain text, the system uses the bcrypt hashing algorithm to protect user passwords.
 
 
----
 
-✨ Features
+   Features
 
-👤 User registration
+   User registration
 
-🔐 Secure password hashing using bcrypt
+   Secure password hashing using bcrypt
 
-💾 Stores user credentials in a users.txt file
+  Stores user credentials in a users.txt file
 
-🔑 Login authentication
+  Login authentication
 
-❌ Incorrect password detection
+  Incorrect password detection
 
-⚠️ User-not-found handling
+  User-not-found handling
 
-🚪 Logout functionality
+  Logout functionality
 
-🖥️ Simple command-line interface
+  Simple command-line interface
 
-🔒 Passwords are never stored as plain text
-
+  Passwords are never stored as plain text
 
 
----
 
-🛠️ Technologies Used
+
+  Technologies Used
 
 Programming Language: Python
 
@@ -48,9 +46,8 @@ Interface: Command Line Interface (CLI)
 
 
 
----
 
-📂 Project Structure
+  Project Structure
 
 Secure-Login-System/
 │
@@ -68,9 +65,8 @@ README.md	Project documentation
 
 
 
----
 
-🔐 How Password Security Works
+  How Password Security Works
 
 When a user registers, the entered password is converted into a secure hash using bcrypt.
 
@@ -85,9 +81,9 @@ bcrypt.checkpw(password.encode(), stored_hash.encode())
 If the passwords match, the user is successfully logged in.
 
 
----
 
-⚙️ Installation
+
+  Installation
 
 1. Install Python
 
@@ -104,9 +100,9 @@ Open the terminal or command prompt and run:
 pip install bcrypt
 
 
----
 
-▶️ How to Run
+
+  How to Run
 
 Run the Python file:
 
@@ -120,9 +116,9 @@ The program displays:
 Choose option:
 
 
----
 
-📝 Usage
+
+  Usage
 
 Register
 
@@ -151,9 +147,9 @@ Select option 3:
 Exiting...
 
 
----
 
-🛡️ Security Measures
+
+  Security Measures
 
 The project implements the following security measure:
 
@@ -173,9 +169,9 @@ Incorrect credentials are rejected.
 
 
 
----
 
-🎯 Objectives
+
+  Objectives
 
 The main objectives of this project are:
 
@@ -199,9 +195,9 @@ The main objectives of this project are:
 
 
 
----
 
-🚀 Future Enhancements
+
+  Future Enhancements
 
 The project can be improved by adding:
 
@@ -225,18 +221,17 @@ Improved error handling
 
 
 
----
 
-📄 Conclusion
+  Conclusion
 
 The Secure Login System with Encryption demonstrates how authentication can be implemented using Python and bcrypt. By hashing passwords instead of storing them in plain text, the system provides a safer approach to credential storage.
 
 This project provides a good foundation for understanding authentication, password hashing, file handling, and basic cybersecurity concepts.
 
 
----
 
-👩‍💻 Author
+
+  Author
 
 Name: K.Sai Sharanya 
 Project: Secure Login System with Encryption
