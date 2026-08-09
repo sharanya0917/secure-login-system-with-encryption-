@@ -44,17 +44,6 @@ Storage: Text file (users.txt)
 
 Interface: Command Line Interface (CLI)
 
-
-
-
-  Project Structure
-
-Secure-Login-System/
-│
-├── encryption.py
-├── users.txt
-└── README.md
-
 Files Description
 
 File	Description
